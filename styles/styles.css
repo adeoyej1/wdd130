@@ -77,3 +77,7 @@ footer {
     background-color: #eee;
     color: #000;
 }
+
+.indent {
+    padding-left: 2rem;
+}
