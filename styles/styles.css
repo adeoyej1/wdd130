@@ -16,6 +16,9 @@ header {
     max-width: 840px;
     margin: 0 auto;
     padding: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Defines a uniform single-column grid layout */
 }
 
 /* Navigation */
@@ -117,6 +120,11 @@ footer {
 .socials {
     display: flex;
     gap: 10px;
+}
+
+.socials img {
+    width: 32px;
+    height: 32px;
 }
 
 /* Utility Classes */
