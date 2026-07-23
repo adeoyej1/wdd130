@@ -1,0 +1,1 @@
+var Reference;!function(e){!function(e){for(var t=_d.getElementsByClassName("md_citlink__fav-img"),a=0;a<t.length;a++){var i=t[a],n=i.getAttribute("data-src");n&&(i.src=n,i.removeAttribute("data-src"))}}(e.PicassoNRTCitationFavicon||(e.PicassoNRTCitationFavicon={}))}(Reference||(Reference={}));

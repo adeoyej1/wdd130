@@ -1,0 +1,1 @@
+"use strict";var ACF;!function(t){var a,e;((e=(a=t.Components||(t.Components={})).ACFMap||(a.ACFMap={})).MapLayer||(e.MapLayer={})).MapLayer=class t{static create(a,e,r){if(void 0!==e&&0!==e.length)return new t(a,e,r)}toString(){return`MapLayer(id=${this.layerId??""})`}constructor(t,a,e){this.layerId=t,this.entities=a,this.state=e}}}(ACF||(ACF={}));
