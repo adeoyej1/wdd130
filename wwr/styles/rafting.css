@@ -183,19 +183,28 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
 }
 
-/* Social Media */
+/* Social Media Navigation */
 .socialmedia {
     display: flex;
-    gap: 15px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
 }
 
-.socialmedia {
+/* Remove link underlines */
+.socialmedia a {
     text-decoration: none;
 }
 
+/* Social Media Icons */
 .socialmedia img {
-    width: 35px;
+    width: 32px;
+    height: 32px;
+    display: block;
 }
