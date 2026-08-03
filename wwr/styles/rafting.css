@@ -293,10 +293,6 @@ fieldset label {
     background-color: var(--accent1-color);
 }
 
-.company-info {
-    text-align: center;
-}
-
 .contact-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
