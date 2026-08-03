@@ -275,11 +275,6 @@ legend {
     color: var(--primary-color);
 }
 
-fieldset label {
-    display: block;
-    margin: 0.5rem 0;
-}
-
 .contact-form button {
     background-color: var(--primary-color);
     color: white;
