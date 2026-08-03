@@ -208,3 +208,152 @@ footer {
     height: 32px;
     display: block;
 }
+
+.company-info,
+.map,
+.contact-form {
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+.employees {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.employees h2 {
+    margin-bottom: 2rem;
+}
+
+.employees figure {
+    text-align: center;
+}
+
+.employees img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.employee-gallery figure {
+    margin: 0;
+    text-align: center;
+}
+
+.employee-gallery img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+form {
+    display: grid;
+    gap: 1rem;
+}
+
+input,
+textarea,
+button {
+    padding: 0.75rem;
+    font-size: 1rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+.map iframe {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+legend {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+fieldset label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    margin: 2rem 0;
+}
+
+.contact-form button {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.8rem;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: var(--accent1-color);
+}
+
+.company-info {
+    text-align: center;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    margin: 1rem 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 350px;
+    border: 0;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea,
+.contact-form button {
+    width: 100%;
+}
+
+fieldset label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0.75rem 0;
+}
+
+fieldset input[type="radio"] {
+    width: auto;
+    margin: 0;
+}
