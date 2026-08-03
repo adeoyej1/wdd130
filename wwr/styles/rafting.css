@@ -209,13 +209,6 @@ footer {
     display: block;
 }
 
-.company-info,
-.map,
-.contact-form {
-    margin: 2rem auto;
-    max-width: 900px;
-}
-
 .employees {
     margin: 2rem auto;
     text-align: center;
@@ -271,15 +264,6 @@ button {
     cursor: pointer;
 }
 
-.map iframe {
-    width: 100%;
-    max-width: 400px;
-    height: 300px;
-    border: 0;
-    display: block;
-    margin: 0 auto;
-}
-
 fieldset {
     border: 1px solid #ccc;
     padding: 1rem;
@@ -294,14 +278,6 @@ legend {
 fieldset label {
     display: block;
     margin: 0.5rem 0;
-}
-
-.contact-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-    align-items: start;
-    margin: 2rem 0;
 }
 
 .contact-form button {
